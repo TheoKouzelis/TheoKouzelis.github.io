@@ -1,0 +1,34 @@
+<div class="sidebar pure-u-1 pure-u-lg-1-4">
+    <div class="header">
+        <h1 class="brand-title"><a href="/">Theo Kouzelis</a></h1>
+        <h2 class="brand-tagline">Software developer specialising in LAMP stack development.</h2>
+        <nav class="nav">
+            <ul class="nav-list nav-social">
+                <li>
+                    <a href="https://twitter.com/tkouzelis">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/TheoKouzelis">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:theo@theo.codes">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav-list">
+                <li class="nav-item"><a class="pure-button" href="/">Posts</a></li>
+                {% for page in site.pages %}
+                    {% if page.title %}
+                        <li class="nav-item"><a class="pure-button" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                <li class="nav-item"><a class="pure-button" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
