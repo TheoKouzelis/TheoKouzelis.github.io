@@ -36,7 +36,7 @@ h3 {
     padding: 0px 0.2em 1.5em;
 }
 
-.pure-img-responsive {
+.pure-img-responsive, img {
     max-width:100%;
     height:auto;
 }
