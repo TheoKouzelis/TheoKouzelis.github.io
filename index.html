@@ -10,9 +10,12 @@ layout: default
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h1>
             <p class="post-meta">
-                {{ post.date | date: "%b %-d, %Y" }}
+                {% for category in post.categories %}
+                    <span class="post-category post-category-pure">{{ category }}</span>
+                {% endfor %}
+                <span class="post-category post-category-pure">{{ post.date | date: "%b %-d, %Y" }}</span>
             </p>
-            <p>{{ post.description }} <a class="post-category post-category-pure"  href="{{ post.url | prepend: site.baseurl }}">Read Post</a></p>
+            <p>{{ post.description }} <a   href="{{ post.url | prepend: site.baseurl }}">Read Post</a></p>
         </div>
     {% endfor %}
 
