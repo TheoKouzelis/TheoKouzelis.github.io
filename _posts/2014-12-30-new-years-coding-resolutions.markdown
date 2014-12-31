@@ -15,7 +15,7 @@ I have never used before and get bogged down reading documentation. Then I would
 simultaneously, keep up with blog posts, podcasts, videocasts and any other learning resource. Darting from one subject to the 
 next has stopped me fully completing any one goal.
 
-So my new years coding resolution is to focus on two subjects only, Vim and Testing. I would like to set myself a small goal in each 
+So my new years coding resolution is to do less and focus on just two subjects, Vim and Testing. I would like to set myself a small goal in each 
 subject every month. January’s goals are:
 
 * Stop using the arrow keys in Vim. 
