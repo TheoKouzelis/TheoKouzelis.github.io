@@ -18,7 +18,7 @@ next has stopped me fully completing any one goal.
 So my new years coding resolution is to focus on two subjects only, Vim and Testing. I would like to set myself a small goal in each 
 subject every month. January’s goals are:
 
-* Stop using the arrow keys in Vim. I have been using Vim for around two months and I'm still manoeuvring the long way around the page.
+* Stop using the arrow keys in Vim. 
 
 * Read [The Grumpy Programmer's Guide To Building Testable PHP Applications](https://leanpub.com/grumpy-testing)
 
