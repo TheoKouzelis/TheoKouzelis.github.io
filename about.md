@@ -4,14 +4,11 @@ title: About
 permalink: /about/
 ---
 
-While studding at college to become an electrician, I was employed by a friend to help create websites. During this time I 
-caught the programming bug and over the last 6 years I have never looked back.
+While studding Electrical Installation at college, a friend employed me part-time to create websites. During this time I caught the programming bug and over the last 6 years I have never looked back.
 
-In that time I have become very familiar working with a LAMP environment, creating small static sites to large web 
-applications. While my main skills are interpreting business rules into PHP and MySQL code, I also have experience creating 
-front end applications with JavaScript libraries such as AngularJS and jQuery, and CSS frameworks like Bootstrap. In this 
-last year I have also had the chance to learn aspects of the Dev Ops side of the business, provisioning virtual servers using 
-Vagrant and Ansible and re-creating them on AWS instances.
+In that time I have become familiar working in a LAMP environment. Creating small static sites to large web applications. Using PHP, MySQL and JavaScript to help create online solutions for my company's clients.
+
+Recently I have also had the chance to learn aspects of the Dev Ops side of the business. Provisioning virtual servers using Vagrant and Ansible and deploying applications on to AWS
 
 ## Work History
 [![SyQic Logo](/images/syqic-logo.jpg)](http://www.syqic.com/)
