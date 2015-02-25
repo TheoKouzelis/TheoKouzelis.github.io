@@ -12,7 +12,7 @@ This is a video tutorial site centred around teaching PHP within the [Laravel Fr
 Great video site focusing on programing theory such as SOLID principles and Agile practices. [Uncle Bob](https://twitter.com/unclebobmartin) talks you through some of the more advanced areas of professional software development in these 60 minute tutorials.  
 
 ##[The Loosely Coupled Podcast](http://looselycoupled.info/)
-This is my favourite podcast because each episode is focused on a single topic. The presenters ([Jeff Carouth](https://twitter.com/jcarouth) and [Matt Frost](https://twitter.com/shrtwhitebldguy)), while being entertaining work through each subject with circularity. Most topics are non language specific and cover a range of issues that will effect software developers careers.  
+This is my favourite podcast because each episode is focused on a single topic. The presenters ([Jeff Carouth](https://twitter.com/jcarouth) and [Matt Frost](https://twitter.com/shrtwhitebldguy)), while being entertaining work through each subject with clarity. Most topics are non language specific and cover a range of issues that will effect software developers careers.  
 
 ##[PHP Town Hall Podcast](http://phptownhall.com/)
 Another great podcast. [Ben Edmunds](https://twitter.com/benedmunds) and [Phil Sturgeon](https://twitter.com/philsturgeon) discuss the latest events in PHP and the stresses and strains of PHP internals.
