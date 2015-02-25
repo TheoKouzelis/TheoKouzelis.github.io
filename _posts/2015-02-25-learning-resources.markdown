@@ -17,10 +17,10 @@ Great video site focusing on architecture, SOLID principles and Agile practices.
 
 ##Podcasts
 
-###[The Loosely Coupled Podcast](http://looselycoupled.info/)  
+###[The Loosely Coupled](http://looselycoupled.info/)  
 This is my favourite podcast because each episode focuses on a single topic. The presenters [Jeff Carouth](https://twitter.com/jcarouth) and [Matt Frost](https://twitter.com/shrtwhitebldguy) are entertaining and cover each subject comprehensively. Most topics are non language specific and the series covers a range of issues that effect developers in their careers.  
 
-###[PHP Town Hall Podcast](http://phptownhall.com/)  
+###[PHP Town Hall](http://phptownhall.com/)  
 [Ben Edmunds](https://twitter.com/benedmunds) and [Phil Sturgeon](https://twitter.com/philsturgeon) discuss the latest events in PHP and the stresses and strains of internals RFC's. This podcast is entertaining and will introduce you to tools and people that are worth looking up. 
 
 ###[Laravel Podcast](http://www.laravelpodcast.com/)
