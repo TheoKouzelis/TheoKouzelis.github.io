@@ -3,7 +3,7 @@ layout: post
 title: "Quick SSH Browser Proxy"
 description: "Quick SSH proxy to test your websites geo features in your browser"
 date: 2015-03-20 21:00:00
-categories: command-line
+categories: linux
 ---
 My boss showed me a great trick today which has helped me view our website from different locations around the world. There are lots of third party services which can help you test your site from different locations. But if you have SSH access to a server in the desired location you may not need them. At work we use AWS, so we can have a servers up in America, Europe and Asia within minutes to test the geo features of our site.  
 
