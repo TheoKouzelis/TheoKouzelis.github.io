@@ -28,7 +28,7 @@ class EmailTest extends PHPUnit_Framework_TestCase
 When I have many data sets running against the same test I will use the frameworks [data providers](https://phpunit.de/manual/current/en/writing-tests-for-phpunit.html#writing-tests-for-phpunit.data-providers) to 
 make the code less verbose.  
 
-{% highlight php %}`
+{% highlight php %}
 <?php 
 
 class EmailTest extends PHPUnit_Framework_TestCase
