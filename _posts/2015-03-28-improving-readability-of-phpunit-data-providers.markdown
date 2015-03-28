@@ -8,7 +8,7 @@ categories: php
 When writing tests I try to describe the test in the function name. I use the format
 testDoesSomethingWhenPassedSomething to first describe the assertion and then the context.  
 
-```
+{% highlight php %}
 <?php 
 
 class EmailTest extends PHPUnit_Framework_TestCase
@@ -23,7 +23,7 @@ class EmailTest extends PHPUnit_Framework_TestCase
         $this->assertInternalType('string', $result);
     }
 }
-```
+{% endhighlight %}
 
 When I have many data sets running against the same test I will use the frameworks data providers to 
 make the code less verbose.  
