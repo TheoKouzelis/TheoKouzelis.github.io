@@ -17,4 +17,4 @@ a blog post saying that [Google might stop crawling sites in this method](http:/
 The team decided to continue with prerender hoping it would fix other search engines if Google had dropped support.  
 
 Adding prerender to our setup was easy and re-fetching the Google bot fixed the indexes with errors. I would recommend 
-prerender to anyone trying to reliable index a JavaScript heavy site.  
+prerender to anyone trying to reliably index a JavaScript heavy site.  
