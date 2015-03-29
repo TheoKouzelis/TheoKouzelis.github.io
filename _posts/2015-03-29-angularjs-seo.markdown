@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AngularJS SEO"
-description: "My experiences with Google to indexing an AngularJS website"
+description: "My experiences with Google indexing an AngularJS website"
 date: 2015-03-29 22:40:00
 categories: javascript
 ---
