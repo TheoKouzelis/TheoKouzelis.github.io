@@ -8,7 +8,15 @@ While studding Electrical Installation at college, a friend employed me part-tim
 
 In that time I have become familiar working in a LAMP environment. Creating small static sites to large web applications. Using PHP, MySQL and JavaScript to help create online solutions for my company's clients.
 
-Recently I have also had the chance to learn aspects of the Dev Ops side of the business. Provisioning virtual servers using Vagrant and Ansible and deploying applications on to AWS
+I enjoy continuously furthering my skills in all aspects of development and take a huge amount of pride in crafting quality code and creating great solutions.  
+
+##Skills Summary
+* PHP, Laravel, Composer
+* JavaScript, jQuery, AngularJS
+* MySQL
+* Git
+* HTML, CSS
+* Linux, Apache, AWS, Vagrant, Ansible
 
 ## Work History
 [![SyQic Logo](/images/syqic-logo.jpg)](http://www.syqic.com/)
