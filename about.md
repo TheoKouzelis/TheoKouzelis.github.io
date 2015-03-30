@@ -11,7 +11,7 @@ In that time I have become familiar working in a LAMP environment. Creating smal
 I enjoy continuously furthering my skills in all aspects of development and take a huge amount of pride in crafting quality code and creating great solutions.  
 
 ##Skills Summary
-* PHP, Laravel, Composer
+* PHP, PHPUnit, Laravel, Composer
 * JavaScript, jQuery, AngularJS
 * MySQL
 * Git
