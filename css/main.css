@@ -173,6 +173,10 @@ nav ul {
     font-size: 80%;
 }
 
+.post-content {
+    margin-bottom: 20px;
+}
+
 .post-category-design {
     background: #5aba59;
 }
