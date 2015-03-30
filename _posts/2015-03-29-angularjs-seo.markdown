@@ -16,5 +16,4 @@ using the [prerender/prerender](https://github.com/prerender/prerender) package.
 a blog post saying that [Google might stop crawling sites in this method](http://searchengineland.com/google-may-discontinue-ajax-crawlable-guidelines-216119).
 The team decided to continue with prerender hoping it would fix other search engines if Google had dropped support.  
 
-Adding prerender to our setup was easy and re-fetching the Google bot fixed the indexes with errors. I would recommend 
-prerender to anyone trying to reliably index a JavaScript heavy site.  
+Adding prerender to our setup was easy and re-fetching the Google bot fixed the indexes with errors. I can definitely say Google is still using the AJAX crawling scheme and I would recommend prerender to anyone trying to reliably index a JavaScript heavy site.  
