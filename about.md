@@ -6,30 +6,33 @@ permalink: /about/
 
 While studding Electrical Installation at college, a friend employed me part-time to create websites. During this time I caught the programming bug and over the last 6 years I have never looked back.
 
-In that time I have become familiar working in a LAMP environment. Creating small static sites to large web applications. Using PHP, MySQL and JavaScript to help create online solutions for my company's clients.
+In that time I have become familiar working in a LAMP environment. Using PHP, MySQL and JavaScript to create small static sites to large web applications.
 
 I enjoy continuously furthering my skills in all aspects of development and take a huge amount of pride in crafting quality code and creating great solutions.  
 
 ##Skills Summary
+* Object Oriented Programming
+* Unit Testing
+* Basic Sysadmin
+* Customer Services
+* Mentioning Junior Developers 
+
+##Toolbox
 * PHP, PHPUnit, Laravel, Composer
 * JavaScript, jQuery, AngularJS
 * MySQL
 * Git
-* HTML, CSS
+* HTML, CSS, Bootstrap
 * Linux, Apache, AWS, Vagrant, Ansible
+* Vim
 
 ## Work History
-[![SyQic Logo](/images/syqic-logo.jpg)](http://www.syqic.com/)
-
-**Senior Developer: June 2013 - Present Day**  
-Designing/creating API's and front end applications to consume them, to deliver video content on mobile and desktop devices.
-
 [![Wirebox Logo](/images/wirebox-logo.jpg)](http://www.wirebox.co.uk/)
 
 **Developer: April 2010 - Present Day**  
-Working on a large range of projects involving large CMS and e-commerce sites to front end Google map applications.
+During my time at Wirebox I have worked on a large range of projects both in-house and on site at our clients offices. For the last two years I have been working solely with our client SyQic, creating API's and single page applications to deliver their multi lingual video content.  
 
-[![Owen Leiws Design Logo](/images/owen-lewis-design-logo.jpg)](http://www.owen-lewis.com/)
+[![Owen Lewis Design Logo](/images/owen-lewis-design-logo.jpg)](http://www.owen-lewis.com/)
 
-**Junior Developer: January 2009 - April 2010**  
-Creating static HTML sites and implementing SEO improvements.
+**Developer: January 2009 - April 2010**  
+In-house developer working directly with the companies clients creating static and dynamic websites. 
