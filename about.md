@@ -15,7 +15,7 @@ I enjoy continuously furthering my skills in all aspects of development and take
 * Unit Testing
 * Basic Sysadmin
 * Customer Services
-* Mentioning Junior Developers 
+* Mentoring Junior Developers 
 
 ##Toolbox
 * PHP, PHPUnit, Laravel, Composer
