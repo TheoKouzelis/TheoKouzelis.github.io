@@ -13,6 +13,7 @@ I enjoy continuously furthering my skills in all aspects of development and take
 ##Skills Summary
 * Object Oriented Programming
 * Unit Testing
+* API Development
 * Basic Sysadmin
 * Continuous Learning
 * Customer Services
