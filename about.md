@@ -14,6 +14,7 @@ I enjoy continuously furthering my skills in all aspects of development and take
 * Object Oriented Programming
 * Unit Testing
 * Basic Sysadmin
+* Continuous Learning
 * Customer Services
 * Mentoring Junior Developers 
 
