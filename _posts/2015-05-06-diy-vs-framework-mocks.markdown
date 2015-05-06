@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "DIY vs Framework Mocks"
-description: "Comparing using a framwork or package to create mock objects in your tests or creating them your self."
+description: "Comparing creating test mocks using a framework/package or creating them your self."
 date: 2015-05-06 01:00:00
 categories: php
 ---
-#DIY vs Framework Mocks Objects
-
 Since learning to test applications I have always used packages like [Mockery](https://github.com/padraic/mockery) or 
 [PHPUnit](https://phpunit.de/manual/current/en/test-doubles.html#test-doubles.mock-objects) to create mocks objects. I 
 have always found mocking to be a complicated subject and find my tests which involve mocks can be hard to read.  
@@ -45,17 +43,17 @@ class DateTimeMock extends DateTime
 }
 {% endhighlight %}
 
-In the test we setup up by;
-* Creating the DateTimeMock.
-* Setting the return value. 
-* Passing the mock to the class we are testing. 
+In the test we setup up by;  
+1. Creating the DateTimeMock.  
+2. Setting the return value.   
+3. Passing the mock to the class we are testing.   
 
 Then call the greetUser method.   
 
-Then we assert we got;
-* The expected greeting.
-* The Greeter called the mock the correct amount of times.
-* he Greeter passed the mock the expected argument.
+Then we assert we got;  
+1. The expected greeting.  
+2. The Greeter called the mock the correct amount of times.  
+3. he Greeter passed the mock the expected argument.  
 
 {% highlight php %}
     /**
