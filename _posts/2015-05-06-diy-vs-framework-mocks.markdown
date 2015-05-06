@@ -18,9 +18,7 @@ In my example I have written a Greeter class that will return a different greeti
 day. To predict the returned greeting we are going to have to mock out the Greeter class's dependency on the 
 DateTime object.  
 
-Writing a mock for the DateTime object is easy. Extend the class overriding any methods you wish to mock. Then store 
-all arguments passed to the method in a public variable. Finally make the method return a value of another 
-predefined public variable.  
+Writing the mock for the DateTime object was easy. I extended the class overriding the method I wanted to mock. Then I stored all the arguments passed to the method in a public variable. Finally I made the method return a value of another predefined public variable.  
 
 {% highlight php %}
 <?php
@@ -43,17 +41,7 @@ class DateTimeMock extends DateTime
 }
 {% endhighlight %}
 
-In the test we setup up by;  
-1. Creating the DateTimeMock.  
-2. Setting the return value.   
-3. Passing the mock to the class we are testing.   
-
-Then call the greetUser method.   
-
-Then we assert we got;  
-1. The expected greeting.  
-2. The Greeter called the mock the correct amount of times.  
-3. he Greeter passed the mock the expected argument.  
+In the following test we use the DateTimeMock to force different greetings out of our Greeter class and check the mocks public variables to assert the mock was called correctly.  
 
 {% highlight php %}
 <?php
@@ -83,6 +71,18 @@ class GreeterTest extends PHPUnit_Framework_TestCase
     }
 }
 {% endhighlight %}
+
+In this test we setup up by;  
+1. Creating the DateTimeMock.  
+2. Setting the return value.   
+3. Passing the mock to the class we are testing.   
+
+Then call the greetUser method.   
+
+Then we assert we got;  
+1. The expected greeting.  
+2. The Greeter called the mock the correct amount of times.  
+3. he Greeter passed the mock the expected argument.
 
 Here is the same test using PHPUnits mocking class.
 
@@ -119,10 +119,8 @@ class GreeterTest extends PHPUnit_Framework_TestCase
 }
 {% endhighlight %}
 
-The test code to me looks simpler in the first example, it also follows the three A's of testing, Arrange, Act and 
-Assert. When using mocking frameworks I feel the syntax forces us to muddle our assertions in with our arrangements.  
-
-Over large projects maintaining lots of mock classes might become a chore. But in this example I feel creating your 
+To me the test code in the first example looks simpler, it also follows the three A's of testing, Arrange, Act and 
+Assert. When using mocking frameworks I feel the syntax forces us to muddle our assertions in with our arrangements. Over large projects maintaining lots of mock classes might become a chore. But in this project I feel creating your 
 own mocks increases readability.  
 
 To see the full example please visit the [project on Github](https://github.com/TheoKouzelis/diy-vs-framework-mocks).
