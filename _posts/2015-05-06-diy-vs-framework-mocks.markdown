@@ -56,6 +56,16 @@ Then we assert we got;
 3. he Greeter passed the mock the expected argument.  
 
 {% highlight php %}
+<?php
+
+namespace Kouz\Tests;
+
+use Kouz\Greeter;
+use Kouz\Mocks\DateTimeMock;
+use PHPUnit_Framework_TestCase;
+
+class GreeterTest extends PHPUnit_Framework_TestCase
+{
     /**
      * @dataProvider greetingAndHourProvider
      */
@@ -71,11 +81,21 @@ Then we assert we got;
         $this->assertCount(1, $dateTimeMock->formatHistory);
         $this->assertEquals('H', $dateTimeMock->formatHistory[0]);
     }
+}
 {% endhighlight %}
 
 Here is the same test using PHPUnits mocking class.
 
 {% highlight php %}
+<?php
+
+namespace Kouz\Tests;
+
+use Kouz\Greeter;
+use PHPUnit_Framework_TestCase;
+
+class GreeterTest extends PHPUnit_Framework_TestCase
+{
     /**
      * @dataProvider greetingAndHourProvider
      */
@@ -96,6 +116,7 @@ Here is the same test using PHPUnits mocking class.
         
         $this->assertEquals($expectedGreeting, $actualGreeting);
     }
+}
 {% endhighlight %}
 
 The test code to me looks simpler in the first example, it also follows the three A's of testing, Arrange, Act and 
