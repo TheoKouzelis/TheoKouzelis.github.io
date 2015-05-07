@@ -15,13 +15,12 @@ I enjoy continuously furthering my skills in all aspects of development and take
 * Unit Testing
 * API Development
 * Basic Sysadmin
-* Continuous Learning
 * Customer Services
-* Mentoring Junior Developers 
+* Continuous Learning
 
 ##Toolbox
 * PHP, PHPUnit, Laravel, Composer
-* JavaScript, jQuery, AngularJS
+* JavaScript, jQuery, AngularJS, Grunt, Bower
 * MySQL
 * Git
 * HTML, CSS, Bootstrap
