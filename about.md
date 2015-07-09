@@ -32,6 +32,7 @@ I enjoy continuously furthering my skills in all aspects of development and take
 
 **Developer: April 2010 - Present Day**  
 During my time at Wirebox I have worked on a large range of projects both in-house and on site at our clients offices.    
+  
 For the last two years I have been working solely with our client SyQic, creating RESTful API's and single page applications to deliver their multi lingual video content. All of their video platforms were aimed for the global mobile market, which meant all layouts had to be responsive and function on a variety of mobile hand sets. We used AngularJS to give site a "native app" feel and Amazon's CloudFront service to speed up global distribution. One of the applications stand out features was the ability to pay via SMS billing which required us to integrate with different payment gateways and telecommunication companies.
 
 [![Owen Lewis Design Logo](/images/owen-lewis-design-logo.jpg)](http://www.owen-lewis.com/)
