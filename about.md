@@ -14,7 +14,7 @@ I enjoy continuously furthering my skills in all aspects of development and take
 * Object Oriented Programming
 * Unit Testing
 * API Development
-* System Adminstration
+* System Administration
 * Customer Services
 * Continuous Learning
 
