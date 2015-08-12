@@ -11,6 +11,8 @@ I am a LAMP stack developer with over 6 years experience working with PHP, MySQL
 * Application monitoring and error handling.
 * Mobile web application development.
 * API design and development.
+* Payment gateway intergation.
+* Advertising intergation.
 * System administration.
 * The ability to communicate with all departments and clients. 
 * Continuous learning.
@@ -30,11 +32,11 @@ I am a LAMP stack developer with over 6 years experience working with PHP, MySQL
 **Developer: April 2010 - Present Day**  
 During my time at Wirebox I have worked on a large range of projects both in-house and on site at our clients offices. This has involved working solo and in teams with up to ten developers.
 
-
-**[Mewe Music](http://www.mewemusic.com)**
+**[Mewe](http://www.mewemusic.com)**  
 Mewe music is a social media platform for musicians that we are currently developing at Wirebox. This involved creating a large API with many data resources which supported a angular and IOS app. The application boasts a message and notification system which lead us to work with the NoSql database MongoDB to ensure quick API responses with large datasets. Stripe payment gateway was also integrated into the apps and API to monetize the project.
   
-For the last two years I have been working solely with our client SyQic, creating RESTful API's and single page applications to deliver their multi lingual video content. All of their video platforms were aimed for the global mobile market, which meant all layouts had to be responsive and function on a variety of mobile hand sets. We used AngularJS to give site a "native app" feel and Amazon's CloudFront service to speed up global distribution. One of the applications stand out features was the ability to pay via SMS billing which required us to integrate with different payment gateways and telecommunication companies.
+**[SyQic](http://syqic.com/)**  
+For the last two years I have been working solely with our client SyQic, creating RESTful API's and single page applications to deliver their multi lingual video content. All of their video platforms were aimed for the global mobile market, which meant all layouts had to be responsive and function on a variety of mobile hand sets. We used AngularJS to give site a "native app" feel and Amazon's CloudFront service to speed up global distribution. One of the applications stand out features was it's freemium model, which was a mixture of advertising using Google's DFP and SMS billing which required us to integrate with different payment gateways and telecommunication companies. The development team working on the project was quite large so we used Vagrant and Ansible to standardised developers environments which improved code reliability and increased development speed.
 
 [![Owen Lewis Design Logo](/images/owen-lewis-design-logo.jpg)](http://www.owen-lewis.com/)
 
