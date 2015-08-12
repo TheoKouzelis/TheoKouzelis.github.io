@@ -20,7 +20,7 @@ I am a LAMP stack developer with over 6 years experience working with PHP, MySQL
 ##Toolbox
 * PHP, PHPUnit, Laravel, Composer
 * JavaScript, jQuery, AngularJS, Grunt, Bower
-* MySQL, MongoDB
+* MySQL, MsSQL, MongoDB
 * Git
 * HTML, CSS, Bootstrap
 * Linux, Apache, AWS, Vagrant, Ansible
