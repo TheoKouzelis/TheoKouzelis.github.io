@@ -30,7 +30,7 @@ I am a LAMP stack developer with over 6 years experience creating everything fro
 [![Wirebox Logo](/images/wirebox-logo.jpg)](http://www.wirebox.co.uk/)
 
 **Developer: April 2010 - Present Day**  
-At Wirebox I have worked on a large range of projects both in-house and on site at our clients offices. These projects would usually have different teams assigned to them. This meant switching between working solo and in teams of up to ten developers. Working on many jobs at the same time and useing GIT branching strategies to create and release new features.
+At Wirebox I have worked on a large range of projects both in-house and on site at our clients offices. These projects would usually have different teams assigned to them. This meant switching between working solo and in teams of up to ten developers. Working on many jobs at the same time and using GIT branching strategies to create and release new features.
 
 **[Mewe](http://www.mewemusic.com)**  
 Mewe music is a social media platform for musicians that we are currently developing at Wirebox. This involved creating a large API with many data resources which supported a angular and IOS app. The application boasts a message and notification system which lead us to work with the NoSql database MongoDB to ensure quick API responses with large datasets. Stripe payment gateway was also integrated into the apps and API to monetize the project.
