@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Setting Up Airbrake With Monolog"
+description: "Quick and easy guide to sending log messages from Monolog to the external bug tracker Airbrake"
+date: 2015-09-28 01:00:00
+categories: php
+---
