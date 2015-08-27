@@ -45,14 +45,13 @@ a message.
 
 By default Airbrake will group all log messages by their Monolog error level. I found this grouping very unhelpful
 as it would group completely unrelated messages as the same error. To force Airbrake into ungrouping the error levels 
-you must navigate to the “General Settings” page and add the project name followed by the error level into the 
-“Distinct grouping” textarea and press save.  
+you must navigate to the “General Settings” page and add the project name followed by the error level (e.g ProjectName.NOTICE) into the “Distinct grouping” textarea and press save.  
 
 Example Distinct groupings:
-* ProjectName.NOTICE
-* ProjectName.ALERT
-* ProjectName.WARNING
-* ProjectName.ERROR
-* ProjectName.CRITICAL
+ProjectName.NOTICE  
+ProjectName.ALERT  
+ProjectName.WARNING  
+ProjectName.ERROR  
+ProjectName.CRITICAL  
 
 After that you should be set up and ready to log.
