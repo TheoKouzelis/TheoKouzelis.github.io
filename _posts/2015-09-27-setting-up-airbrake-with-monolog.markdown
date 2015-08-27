@@ -7,13 +7,12 @@ categories: php
 ---  
 Integrating Monolog and Airbrake is painless. The hardest part  is navigating a lot of deprecated packages for 
 Airbrake that still rank higher in searches than the currently supported API [airbrake/phpbrake](https://github.com/airbrake/phpbrake). 
-This package as well as being an API to contact Airbrake, it also ships with a handler for Monolog.  
+This package as well as being an API to contact Airbrake, also ships with a handler for Monolog.  
 
-Create a new project in Airbrake and obtaining a “Project ID” and a “Project API Key” from the General Settings 
-page in the top right hand corner.  
+To begin, create a new project in Airbrake and obtaining a “Project ID” and a “Project API Key” from the General Settings page in the top right hand corner.  
 
 Then install [airbrake/phpbrake](https://github.com/airbrake/phpbrake) via composer then add the following code 
-to an to your Monolog setup:  
+to your Monolog setup:  
 
 {% highlight php %}
 <?php
