@@ -50,10 +50,10 @@ you must navigate to the “General Settings” page and add the project name fo
 “Distinct grouping” textarea and press save.  
 
 Example Distinct groupings:
-ProjectName.NOTICE
-ProjectName.ALERT
-ProjectName.WARNING
-ProjectName.ERROR
-ProjectName.CRITICAL
+* ProjectName.NOTICE
+* ProjectName.ALERT
+* ProjectName.WARNING
+* ProjectName.ERROR
+* ProjectName.CRITICAL
 
 After that you should be set up and ready to log.
