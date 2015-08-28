@@ -5,7 +5,7 @@ description: "Quick and easy guide to sending log messages from Monolog to the e
 date: 2015-09-27 01:00:00
 categories: php
 ---  
-Integrating Monolog and Airbrake is painless. The hardest part  is navigating a lot of deprecated packages for 
+Integrating Monolog and Airbrake is fairly painless. The hardest part  is navigating a lot of deprecated packages for 
 Airbrake that still rank higher in searches than the currently supported API [airbrake/phpbrake](https://github.com/airbrake/phpbrake). 
 This package as well as being an API to contact Airbrake, also ships with a handler for Monolog.  
 
