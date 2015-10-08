@@ -43,20 +43,20 @@ during development. Use the $notice['context']['environment'] variable during se
 Then under "Notification Settings" you can set Airbrake to only contact you when the environment named "production" logs
 a message.
 
-By default Airbrake will group all log messages by their Monolog error level. In my case, I found this grouping unhelpful because it would group unrelated messages as the same error. To force Airbrake into ungrouping the error levels you must navigate to the “General Settings” page and add the log name followed by the error level (e.g LogName.NOTICE) into the “Distinct grouping” textarea and press save.  
+By default Airbrake will group all log messages by their Monolog error level. In my case, I found this grouping unhelpful because it would group unrelated messages as the same error. To force Airbrake into ungrouping the error levels you must navigate to the “General Settings” page and add the log name followed by the error level (e.g {{ LogName }}.NOTICE) into the “Distinct grouping” textarea and press save.  
 
 Example Distinct groupings: 
 
-* LogName.NOTICE 
+* {{ LogName }}.NOTICE 
 
-* LogName.ALERT 
+* {{ LogName }}.ALERT 
 
-* LogName.WARNING   
+* {{ LogName }}.WARNING   
 
-* LogName.ERROR    
+* {{ LogName }}.ERROR    
 
-* LogName.CRITICAL 
+* {{ LogName }}.CRITICAL 
 
-* LogName.EMERGENCY  
+* {{ LogName }}.EMERGENCY  
 
 After that you should be set up and ready to log.
