@@ -24,7 +24,7 @@ I am a LAMP stack developer with over 6 years experience creating everything fro
 * MySQL, MsSQL, MongoDB
 * Git
 * HTML, CSS, Bootstrap
-* Linux, Apache, AWS, Vagrant, Ansible
+* Linux, Apache, AWS, Digital Ocean, Vagrant, Ansible
 * Vim
 
 ## Work History
