@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Supervisor Email Alerts"
-description: "How to getting email alerts when Supervisor can't restart your program"
+description: "How to get email alerts when Supervisor can't restart your program"
 date: 2015-12-05 01:00:00
 categories: linux
 ---  
