@@ -3,7 +3,7 @@ layout: post
 title: "Supervisor Email Alerts"
 description: "How to getting email alerts when Supervisor can't restart your program"
 date: 2015-12-05 01:00:00
-categories: php
+categories: linux
 ---  
 [Supervisor](http://supervisord.org/) is a great python application that will make sure that all your long running programs on the server stay running. 
 I was first introduced to this tool through the [Laravel framework](http://laravel.com/) which requires Supervisor to keep its command line program 
