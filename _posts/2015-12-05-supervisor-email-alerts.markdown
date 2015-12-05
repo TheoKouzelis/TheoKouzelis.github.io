@@ -28,9 +28,11 @@ We used the [fatalmailbatch](http://superlance.readthedocs.org/en/latest/fatalma
 adding any other program. I added a new config file at /etc/supervisor/conf.d/fatalmailbatch.conf  
 
 {% highlight php %}
+# /etc/supervisor/conf.d/fatalmailbatch.conf 
+
 [eventlistener:fatalmailbatch]
 command=fatalmailbatch 
-  --toEmail="admin1@team.com; admin2@team.com" 
+  --toEmail="admin@team.com" 
   --fromEmail="supervisor@app.com" 
   --smtpHost="smtp.mailgun.org" 
   --userName="username" 
