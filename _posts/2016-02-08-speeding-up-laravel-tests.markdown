@@ -24,39 +24,71 @@ To implement migrations without rollbacks you have to do the following.
 
 Add the im-memory sqlite config to your connections array
 {% highlight php %}
+<?php
+
 #config/database.php
-'connections' => [
-  'sqlite' => [
-    'driver'   => 'sqlite',
-    'database' => ':memory:',
-    'prefix'   => '',
-  ],
-]
+
+return [
+  'connections' => [
+    'sqlite' => [
+      'driver'   => 'sqlite',
+      'database' => ':memory:',
+      'prefix'   => '',
+    ],
+  ]
+];
 {% endhighlight %}
 
-Set your tests to run against sqlite database
+Set your tests to run against sqlite database by adding the env variable
 {% highlight php %}
+<?php
+
 #tests/TestCase.php
-public function createApplication()
+
+class class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
-  putenv('DB_CONNECTION=sqlite');
+  protected $baseUrl = 'http://localhost';
   
-  $app = require __DIR__.'/../bootstrap/app.php';
+  public function createApplication()
+  {
+    putenv('DB_CONNECTION=sqlite');
+  
+    $app = require __DIR__.'/../bootstrap/app.php';
 
-  $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
-  return $app;
+    return $app;
+  }
 }
 {% endhighlight %}
 
-Then add your the migration function to your TestCase
+Then add the migration function to your TestCase
 {% highlight php %}
+<?php
+
 #tests/TestCase.php
-/**
- * @before
- */
-public function runDatabaseMigrations()
+
+class class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
-  $this->artisan('migrate');
+  protected $baseUrl = 'http://localhost';
+ 
+  /**
+  * @before
+  */
+  public function runDatabaseMigrations()
+  {
+    $this->artisan('migrate');
+  }
+  
+  public function createApplication()
+  {
+    putenv('DB_CONNECTION=sqlite');
+  
+    $app = require __DIR__.'/../bootstrap/app.php';
+
+    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+
+    return $app;
+  }
 }
 {% endhighlight %}
