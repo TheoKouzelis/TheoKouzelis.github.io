@@ -5,7 +5,7 @@ permalink: /about/
 ---
 I am a LAMP stack developer with over 6 years experience creating everything from small static sites to large web applications. I enjoy furthering my skills in all aspects of development and take a huge amount of pride in crafting quality code.  
 
-## Skills Summary  
+## Skills Summary
 * Object oriented programming.
 * Unit testing and test driven development.
 * Application monitoring and error handling.
@@ -18,7 +18,7 @@ I am a LAMP stack developer with over 6 years experience creating everything fro
 * The ability to communicate with all departments and clients. 
 * Continuous learning.
 
-##Toolbox
+## Toolbox
 * PHP, PHPUnit, Laravel, Composer, Drupal, Wordpress
 * JavaScript, jQuery, AngularJS, Grunt, Bower
 * MySQL, MsSQL, MongoDB
