@@ -29,17 +29,17 @@ Add the im-memory sqlite config to your connections array
 #config/database.php
 
 return [
-  'connections' => [
-    'sqlite' => [
-      'driver'   => 'sqlite',
-      'database' => ':memory:',
-      'prefix'   => '',
-    ],
-  ]
+    'connections' => [
+        'sqlite' => [
+            'driver'   => 'sqlite',
+            'database' => ':memory:',
+            'prefix'   => '',
+        ],
+    ]
 ];
 {% endhighlight %}
 
-Set your tests to run against sqlite database by adding the env variable
+Set your tests to run against sqlite database by adding a env variable
 {% highlight php %}
 <?php
 
@@ -47,18 +47,18 @@ Set your tests to run against sqlite database by adding the env variable
 
 class class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
-  protected $baseUrl = 'http://localhost';
+    protected $baseUrl = 'http://localhost';
   
-  public function createApplication()
-  {
-    putenv('DB_CONNECTION=sqlite');
+    public function createApplication()
+    {
+        putenv('DB_CONNECTION=sqlite');
   
-    $app = require __DIR__.'/../bootstrap/app.php';
+        $app = require __DIR__.'/../bootstrap/app.php';
 
-    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+        $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
-    return $app;
-  }
+        return $app;
+    }
 }
 {% endhighlight %}
 
@@ -70,25 +70,25 @@ Then add the migration function to your TestCase
 
 class class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
-  protected $baseUrl = 'http://localhost';
+    protected $baseUrl = 'http://localhost';
  
-  /**
-  * @before
-  */
-  public function runDatabaseMigrations()
-  {
-    $this->artisan('migrate');
-  }
+    /**
+    * @before
+    */
+    public function runDatabaseMigrations()
+    {
+        $this->artisan('migrate');
+    }
   
-  public function createApplication()
-  {
-    putenv('DB_CONNECTION=sqlite');
+    public function createApplication()
+    {
+        putenv('DB_CONNECTION=sqlite');
   
-    $app = require __DIR__.'/../bootstrap/app.php';
+        $app = require __DIR__.'/../bootstrap/app.php';
 
-    $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+        $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
-    return $app;
-  }
+        return $app;
+    }
 }
 {% endhighlight %}
