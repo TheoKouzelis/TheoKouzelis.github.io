@@ -73,8 +73,8 @@ class class TestCase extends Illuminate\Foundation\Testing\TestCase
     protected $baseUrl = 'http://localhost';
  
     /**
-    * @before
-    */
+     * @before
+     */
     public function runDatabaseMigrations()
     {
         $this->artisan('migrate');
