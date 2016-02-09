@@ -52,9 +52,7 @@ public function createApplication()
 Then add your the migration function to your TestCase
 {% highlight php %}
 #tests/TestCase.php
-/**
- * @before
- */
+
 public function runDatabaseMigrations()
 {
   $this->artisan('migrate');
