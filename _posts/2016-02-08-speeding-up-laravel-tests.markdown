@@ -45,7 +45,7 @@ Set your tests to run against sqlite database by adding a env variable
 
 #tests/TestCase.php
 
-class class TestCase extends Illuminate\Foundation\Testing\TestCase
+class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
     protected $baseUrl = 'http://localhost';
   
@@ -68,7 +68,7 @@ Then add the migration function to your TestCase
 
 #tests/TestCase.php
 
-class class TestCase extends Illuminate\Foundation\Testing\TestCase
+class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
     protected $baseUrl = 'http://localhost';
  
