@@ -4,7 +4,7 @@ title: "Speeding Up Laravel Tests"
 description: "A quick way to speed up your functional tests in Laravel"
 date: 2016-02-09 01:00:00
 categories: php
---- 
+---
 While investigating ways to speed up tests by [Chris Duell](http://www.chrisduell.com/blog/development/speeding-up-unit-tests-in-php/) 
 and [Jordan Eldredge](https://jordaneldredge.com/blog/speed-up-laravel-tests-with-database-transactions/). I stumbled upon an 
 alternative way which might not be as fast but is easy to implement.  
@@ -52,7 +52,9 @@ public function createApplication()
 Then add your the migration function to your TestCase
 {% highlight php %}
 #tests/TestCase.php
-
+/**
+ * @before
+ */
 public function runDatabaseMigrations()
 {
   $this->artisan('migrate');
