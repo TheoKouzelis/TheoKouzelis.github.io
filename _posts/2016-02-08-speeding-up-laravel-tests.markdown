@@ -22,7 +22,7 @@ each test.
 
 To implement migrations without rollbacks you have to do the following.
 
-Add the im-memory sqlite config to your connections array
+Add the in-memory sqlite config to your connections array
 {% highlight php %}
 <?php
 
