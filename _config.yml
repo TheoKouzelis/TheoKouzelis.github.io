@@ -3,7 +3,7 @@ title: Software Developer
 description: > # this means to ignore newlines until "baseurl:"
   Software developer specialising in LAMP stack development.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://theo.codes" # the base hostname & protocol for your site
+url: "http://theokouzelis.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
