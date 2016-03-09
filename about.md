@@ -47,5 +47,5 @@ I started my career as an PHP/HTML developer small dynamic websites and web form
 **[Woodovis Park](http://www.woodovis.com/)**  
 The Devonshire campsite commissioned us to create a large touchscreen information board that would inform their guests of activities and events in the local area. Taking into account the unique hardware and environment we worked closely with our clients, wireframing and testing the UI to create a great user experience.  
 
-##Hobbies and Interests 
+## Hobbies and Interests 
 In my spare time I enjoy playing bass guitar.
