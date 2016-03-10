@@ -5,7 +5,7 @@ description: "How to select additional fields on the fly with eloquent scopes."
 date: 2016-03-10 01:00:00
 categories: php
 ---
-In certain situations it's useful to calculate extra fields from within your eloquent models. For instance it is useful to calculate distance for models that have coordinate fields.  
+In certain situations it's useful to calculate extra fields from within your eloquent models. For instance it may be useful to calculate distance for a model that have coordinate fields.  
 
 This can be achieved by using [eloquents scope functions](https://laravel.com/docs/5.1/eloquent#query-scopes) to add the additional field when required.  
 
@@ -31,6 +31,9 @@ Then to create the distance field, we can add a scope function that uses the [Ha
 to calculate the distance in miles between two sets of latitude and longitude coordinates.
 
 {% highlight php %}
+<?php
+//app/Venue.php
+
 public function scopeWithDistance($query, $lat, $lng)
 {
     $raw = '(floor(3959 * acos(cos(radians(:lat1)) * cos(radians(lat))
@@ -55,6 +58,9 @@ array:1 [
 We can correct this by overwriting the eloquent models [newQuery function](https://laravel.com/api/5.2/Illuminate/Database/Query/Builder.html#method_newQuery)
  which is called at the start of any new query involving the model. Here we can re-add the "select *" query.
 {% highlight php %}
+<?php
+//app/Venue.php
+
 public function newQuery()
 {
     return parent::newQuery()->select('venues.*');
