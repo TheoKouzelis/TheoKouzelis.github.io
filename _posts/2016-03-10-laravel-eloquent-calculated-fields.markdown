@@ -5,7 +5,7 @@ description: "How to select additional fields on the fly with eloquent scopes."
 date: 2016-03-10 01:00:00
 categories: php
 ---
-In certain situations it's useful to calculate extra fields from within your eloquent models. For instance it may be useful to calculate distance for a model that have coordinate fields.  
+In certain situations it's useful to calculate extra fields from within your eloquent models. For instance it may be useful to calculate distance for a model that has coordinate fields.
 
 This can be achieved by using [eloquents scope functions](https://laravel.com/docs/5.1/eloquent#query-scopes) to add the additional field when required.  
 
