@@ -99,11 +99,11 @@ The only thing left to do is apply the middleware to the API routes.
 <?php
 
 Route::group(['prefix' => 'api', 'middleware' => ['database.fake']], function () {
-        Route::resource('resource1, 'Api\Controller');
+        Route::resource('resource1', 'Api\Controller');
 });
 
-Route::group(['prefix' => 'backend', function () {
-        Route::get('dashboard, 'Backend\Controller');
+Route::group(['prefix' => 'backend'], function () {
+        Route::get('dashboard', 'Backend\Controller@index');
 });
 {% endhighlight %}
 
