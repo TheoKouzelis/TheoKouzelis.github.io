@@ -15,7 +15,7 @@ I am a LAMP stack developer with over 6 years experience creating everything fro
 * Advertising integration.
 * System administration.
 * Remote development.
-* The ability to communicate with all departments and clients. 
+* Clear communicator. 
 * Continuous learning.
 
 ## Toolbox
