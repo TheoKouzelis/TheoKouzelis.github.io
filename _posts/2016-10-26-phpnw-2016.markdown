@@ -1,0 +1,28 @@
+---
+layout: post
+title: "PHPNW 2016"
+description: "My first experience of a PHP conference."
+date: 2016-10-26 01:00:00
+categories: php
+---
+![Main room at PHPNW 2016](http://theo.codes/images/phpnw.jpg "Main room at PHPNW 2016")  
+Having never been to a conference before I didn't know what to expect from one of the larger UK PHP events. I regularly 
+watch conference talks on youtube, so I was keen to see how attending compared.  
+
+Looking at the [three-track schedule](http://conference.phpnw.org.uk/phpnw16/schedule/), the topics on offer were varied. 
+There were framework specific talks on Zend and Slim. Security dos and don'ts, sysadmin setups and what's new in PHP. The 
+diversity in talks was also reflected in the in the diversity of delegates. Every developer I talked to used a different 
+stack in their day jobs. It was great to gain ideas from outside of your own silo and see just how big the community is.  
+
+One of my favourite parts of the conference was the "uncon" room. This gave the event a bit of a music festival vibe. If you 
+ventured down a maze of corridors. You could find a small room where speakers had an open mic to perform talks that were picked 
+on the day. At the end of the first day, I managed to catch a great talk on a new learning tool call 
+[PHP School](https://www.phpschool.io/).  
+
+I got a lot out of the technical talks over the two days. But I think the most memorable were the meta-talks. These are the type 
+of talks that I would pass over while on youtube, but made the conference worth attending. Listening to 
+[Gary Hockin's](https://blog.hock.in/) closing keynote on contributing to open source and the effect on his career, it's hard not 
+to feel enthusiastic about the industry we work in.  
+
+I think going to a large conference is a great way for developers to stay inspired and mark a year at work. I'm looking forward 
+to attending in 2017.
