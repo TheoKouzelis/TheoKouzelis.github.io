@@ -28,8 +28,9 @@ I am a LAMP stack developer with over 6 years experience creating everything fro
 * Vim
 
 ## Open Source Contributions
-* [Monolog](https://github.com/Seldaek/monolog/pull/422)
 * [Laravel Airbrake](https://github.com/TheoKouzelis/laravel-airbrake)
+* [PHP Workshop](https://github.com/php-school/php-workshop/pull/126)
+* [Monolog](https://github.com/Seldaek/monolog/pull/422)
 * [Quarx](https://github.com/YABhq/Quarx/pull/18)
 * [Laravel Analytics](https://github.com/spatie/laravel-analytics/pull/99)
 * [Text Truncator](https://github.com/TheoKouzelis/text-truncator)
