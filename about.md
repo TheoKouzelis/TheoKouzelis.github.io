@@ -69,7 +69,7 @@ the DoneDone ticket manager. We provisioned both a staging and production server
 to demo new features by merging code to a staging branch. Which when approved, would then be released to production by merging to the master 
 branch.
 
-To help use monitor the application in the wild we have added logging to all areas of the application and receive real time error reports 
+To help us monitor the application in the wild we have added logging to all areas of the application and receive real time error reports 
 using Airbrake.  
 
 The application was officially launched 26th of October 2016. 
@@ -77,11 +77,11 @@ The application was officially launched 26th of October 2016.
 [![Owen Lewis Design Logo](/images/owen-lewis-design-logo.jpg)](http://www.owen-lewis.com/)
 
 **Developer: January 2009 - April 2010**  
-I started my career as an PHP/HTML developer small dynamic websites and web forms. Many of the sites required SEO tweaks, 
+I started my career as an PHP/HTML developer creating small dynamic websites and web forms. Many of the sites required SEO tweaks, 
 Google Analytics and Adsense integrations.  
 
 **[Woodovis Park](http://www.woodovis.com/)**  
-The Devonshire campsite commissioned us to create a large touchscreen information board that would inform their guests of 
+The award winning Devonshire campsite commissioned us to create a large touchscreen information board that would inform their guests of 
 activities and events in the local area. Taking into account the unique hardware and environment we worked closely with our 
 clients, wireframing and testing the UI to create a great user experience.  
 
