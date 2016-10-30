@@ -236,6 +236,10 @@ nav ul {
     padding: 0;
 }
 
+figure {
+    margin-bottom: 10px;
+}
+
 @media screen and (min-width: 64em){
     .content {
         padding: 2em 3em 0;
