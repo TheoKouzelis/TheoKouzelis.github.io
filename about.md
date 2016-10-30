@@ -26,7 +26,7 @@ quality code.
 * MySQL/MariaDB
 * Git
 * HTML, CSS, Bootstrap
-* Linux, Apache, Nginx, Vagrant, Ansible, Bash, AWS, Digital Ocean, Rackspace
+* Linux, Apache, Vagrant, Ansible, Bash, AWS, Digital Ocean, Rackspace
 * Vim
 
 ## Open Source Contributions  
