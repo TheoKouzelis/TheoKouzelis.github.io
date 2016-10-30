@@ -27,7 +27,7 @@ I am a LAMP stack developer with over 6 years experience creating everything fro
 * Linux, Apache, AWS, Digital Ocean, Vagrant, Ansible
 * Vim
 
-## Open Source Contributions
+## Open Source Contributions  
 ### [Laravel Airbrake](https://github.com/TheoKouzelis/laravel-airbrake)
 A package authored by myself which bootstraps the official Airbrake package to the Laravel framework. It also solves a 
 security issue by filtering sensitive variables from the log messages which are set by the framework.  
