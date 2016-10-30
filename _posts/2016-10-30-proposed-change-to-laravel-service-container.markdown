@@ -24,7 +24,7 @@ then see it resume with the standard logger.
 
 I believe this pull request is currently being reviewed.  
 
-##Example LoggerInterface Contextual Binding
+## Example LoggerInterface Contextual Binding
 
 {% highlight php %}
 <?php
