@@ -52,7 +52,7 @@ A package authored by myself to limit paragraphs of text and append "read more" 
 
 **Developer: April 2010 - Present Day**  
 At Wirebox I work on a large range of projects, both remotely and on site at our client's offices. I play a large roll in quoting 
-on new work and liaising with clients to spec out software features. It's common for us to work alone or in teams were we have to 
+on new work and liaising with clients to spec out software features. It's common for us to work alone or in teams where we have to 
 juggle multiple features by using GIT branching strategies. Within the company I help mentoring some of the junior developers and 
 research new technologies.  
 
