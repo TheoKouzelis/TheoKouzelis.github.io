@@ -75,7 +75,7 @@ branch.
 To help us monitor the application in the wild we have added logging to all areas of the application and receive real time error reports 
 using Airbrake.  
 
-The application was officially launched 26th of October 2016. 
+The application was officially launched on the 26th of October 2016. 
   
 [![Owen Lewis Design Logo](/images/owen-lewis-design-logo.jpg)](http://www.owen-lewis.com/)
 
