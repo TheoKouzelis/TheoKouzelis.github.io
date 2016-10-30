@@ -5,7 +5,7 @@ description: "A change to Laravel's Service Container which will allow contextua
 date: 2016-10-26 01:00:00
 categories: php
 ---
-There is a [open pull request](https://github.com/laravel/framework/pull/15637#issuecomment-256395394) by 
+There is a [open pull request](https://github.com/laravel/framework/pull/15637) by 
 [Jordan Pittman](https://github.com/thecrypticace) to amend the Laravel's Service Container to allow contextual 
 bindings for bindings registered as singletons.  
 
@@ -22,4 +22,47 @@ logger. By creating a contextual binding we could increase the logging level of 
 to a different recipient without affecting the rest of the application. Deleting the contextual binding for the class would 
 then see it resume with the standard logger.  
 
-I believe this Taylor Otwell or his team are currently reviewing this pull request.
+I believe this pull request is currently being reviewed.
+
+##Example LoggerInterface Contextual Binding
+
+{% highlight php %}
+<?php
+
+namespace App;
+
+class Example 
+{
+    protected $log;
+
+    public function __construct(\Psr\Log\LoggerInterface $log)
+    {
+        $this->log = $log;
+    }
+}
+{% endhighlight %}
+
+
+{% highlight php %}
+<?php
+
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+class AppServiceProvider extends ServiceProvider
+{
+    public function register()
+    {
+        $this->app->when('App\Example')
+            ->needs('Psr\Log\LoggerInterface')
+            ->give(function () {
+                $log = new Logger('example');
+                $log->pushHandler(new StreamHandler(storage_path('logs/test1.log'), Logger::DEBUG));
+                return $log;
+            });
+    }
+}
+{% endhighlight %}
