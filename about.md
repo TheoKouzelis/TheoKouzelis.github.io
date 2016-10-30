@@ -86,4 +86,4 @@ activities and events in the local area. Taking into account the unique hardware
 clients, wireframing and testing the UI to create a great user experience.  
 
 ## Hobbies and Interests 
-In my spare time I enjoy playing ukulele and bass guitar.
+In my spare time I enjoy listening to development podcasts, watching science documentaries and playing ukulele and bass guitar.
