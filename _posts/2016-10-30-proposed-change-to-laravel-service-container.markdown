@@ -6,7 +6,7 @@ date: 2016-10-26 01:00:00
 categories: php
 ---
 There is a [open pull request](https://github.com/laravel/framework/pull/15637) by 
-[Jordan Pittman](https://github.com/thecrypticace) to amend the Laravel's Service Container to allow contextual 
+[Jordan Pittman](https://github.com/thecrypticace) to amend Laravel's Service Container to allow contextual 
 bindings for bindings registered as singletons.  
 
 My personal use case is to allow different configured loggers to be injected into different parts of your application.  
@@ -60,7 +60,7 @@ class AppServiceProvider extends ServiceProvider
             ->needs('Psr\Log\LoggerInterface')
             ->give(function () {
                 $log = new Logger('example');
-                $log->pushHandler(new StreamHandler(storage_path('logs/test1.log'), Logger::DEBUG));
+                $log->pushHandler(new StreamHandler(storage_path('logs/example.log'), Logger::DEBUG));
                 return $log;
             });
     }
