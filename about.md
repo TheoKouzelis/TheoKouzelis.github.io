@@ -34,6 +34,9 @@ quality code.
 A package authored by myself which bootstraps the official Airbrake package to the Laravel framework. It also solves a 
 security issue by filtering sensitive variables from the log messages which are set by the framework.  
 
+**[My Dev Environment](https://github.com/TheoKouzelis/my-dev-env)**  
+Bash scripts to build my developer environment on remote servers and virtual machines.
+
 **[PHP Workshop](https://github.com/php-school/php-workshop/pull/126)**  
 Helped to increase unit test coverage for the package as part of their "hacktoberfest" drive.
 
