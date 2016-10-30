@@ -22,7 +22,7 @@ logger. By creating a contextual binding we could increase the logging level of 
 to a different recipient without affecting the rest of the application. Deleting the contextual binding for the class would 
 then see it resume with the standard logger.  
 
-I believe this pull request is currently being reviewed.
+I believe this pull request is currently being reviewed.  
 
 ##Example LoggerInterface Contextual Binding
 
