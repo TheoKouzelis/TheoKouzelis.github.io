@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Proposed Change to Laravel's Service Container"
-description: "A change to Laravel's Service Container which will allow contextual Monolog configurations"
+description: "A change to Laravel's Service Container which would allow contextual Monolog configurations"
 date: 2016-10-26 01:00:00
 categories: php
 ---
