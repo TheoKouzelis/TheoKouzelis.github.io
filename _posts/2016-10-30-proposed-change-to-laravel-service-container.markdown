@@ -41,7 +41,7 @@ class Example
     }
 }
 {% endhighlight %}
-
+  
 
 {% highlight php %}
 <?php
