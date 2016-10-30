@@ -28,20 +28,20 @@ I am a LAMP stack developer with over 6 years experience creating everything fro
 * Vim
 
 ## Open Source Contributions  
-### [Laravel Airbrake](https://github.com/TheoKouzelis/laravel-airbrake)
+**[Laravel Airbrake](https://github.com/TheoKouzelis/laravel-airbrake)**
 A package authored by myself which bootstraps the official Airbrake package to the Laravel framework. It also solves a 
 security issue by filtering sensitive variables from the log messages which are set by the framework.  
 
-### [PHP Workshop](https://github.com/php-school/php-workshop/pull/126)
+**[PHP Workshop](https://github.com/php-school/php-workshop/pull/126)**
 Helped to increase unit test coverage for the package as part of their "hacktoberfest" drive.
 
-### [Monolog](https://github.com/Seldaek/monolog/pull/422)
+**[Monolog](https://github.com/Seldaek/monolog/pull/422)**
 Improved the exception errors within the Monolog StreamHandler after experiencing a confusing error within my own application.
 
-### [Quarx](https://github.com/YABhq/Quarx/pull/18)
+**[Quarx](https://github.com/YABhq/Quarx/pull/18)**
 Upgraded the packages dependancy on laravel-analytics to the latest release. This made the packages installation easier.
 
-### [Text Truncator](https://github.com/TheoKouzelis/text-truncator)
+**[Text Truncator](https://github.com/TheoKouzelis/text-truncator)**
 A package authored by myself to limit paragraphs of text and append "read more" links or ellipses.  
 
 
