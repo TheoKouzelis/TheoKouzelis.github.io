@@ -38,7 +38,7 @@ security issue by filtering sensitive variables from the log messages which are 
 Bash scripts to build my developer environment on remote servers and virtual machines.
 
 **[Laravel Framework](https://github.com/laravel/framework/pull/17151)**  
-Helped fix an issue in one of the frameworks consolei commands.
+Helped fix an issue in one of the frameworks console commands.
 
 **[PHP Workshop](https://github.com/php-school/php-workshop/pull/126)**  
 Helped to increase unit test coverage for the package as part of their "hacktoberfest" drive.
