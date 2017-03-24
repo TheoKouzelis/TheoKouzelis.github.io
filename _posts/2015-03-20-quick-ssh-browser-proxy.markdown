@@ -9,10 +9,12 @@ My boss showed me a great trick today which has helped me view our website from 
 
 In Firefox open up the preferences and select the network tab, then press the connections settings button.   
 
+{:style="text-align:center"}
 ![Firefox preferences network tab](/images/network.png "Firefox preferences network tab")  
 
 In the connections settings select "manual proxy configuration". Then type "localhost" for your SOCKS Host and enter a random port number e.g 4321.  
 
+{:style="text-align:center"}
 ![Firefox preferences proxy settings](/images/proxy.png "Firefox preferences proxy settings")
 
 Switch over to the command line and SSH into your remote server using the bind address port option "-D" with you SOCKS host port.   
