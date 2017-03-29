@@ -1,7 +1,14 @@
 <div class="sidebar pure-u-1 pure-u-lg-1-4">
     <div class="header">
-        <h1 class="brand-title"><a href="/">Theo Kouzelis</a></h1>
-        <h2 class="brand-tagline">Software developer specialising in LAMP stack environments.</h2>
+        <span class="brand-title">
+            <a href="/">
+                Theo Kouzelis
+            </a>
+        </span>
+        <span class="brand-tagline">
+            Software developer specialising 
+            in LAMP stack environments.
+        </span>
         <nav class="nav">
             <ul class="nav-list nav-social">
                 <li>
@@ -21,13 +28,25 @@
                 </li>
             </ul>
             <ul class="nav-list">
-                <li class="nav-item"><a class="pure-button" href="/">Posts</a></li>
+                <li class="nav-item">
+                    <a class="pure-button" href="/">
+                        Posts
+                    </a>
+                </li>
                 {% for page in site.pages %}
                     {% if page.title %}
-                        <li class="nav-item"><a class="pure-button" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                        <li class="nav-item">
+                            <a class="pure-button" href="{{ page.url }}">
+                                {{ page.title }}
+                            </a>
+                        </li>
                     {% endif %}
                 {% endfor %}
-                <li class="nav-item"><a class="pure-button" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
+                <li class="nav-item">
+                    <a class="pure-button" href="/feed.xml">
+                        RSS
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>

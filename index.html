@@ -5,18 +5,24 @@ layout: default
 <div class="home">
 
     {% for post in site.posts %}
-        <div class="post">
-            <h1>
-                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-            </h1>
+        <article class="post">
+            <header>
+                <h2>
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h2>
+            </header>
             <p>
                 {{ post.excerpt }} 
             </p>
-            <small>
-                {{ post.date | date_to_string }} - 
-                {{ post.tags | join: ', ' | upcase }}
-            </small>
-        </div>
+            <footer>
+                <small>
+                    {{ post.date | date_to_string }} - 
+                    {{ post.tags | join: ', ' | upcase }}
+                </small>
+            </footer>
+        </article>
     {% endfor %}
 
 </div>
