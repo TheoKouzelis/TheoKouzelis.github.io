@@ -5,20 +5,22 @@ layout: default
 <div class="home">
 
     {% for post in site.posts %}
-        <article class="post">
+        <article itemscope itemtype="http://schema.org/Article" class="post">
             <header>
                 <h2>
-                    <a href="{{ post.url }}">
+                    <a itemprop="name" href="{{ post.url }}">
                         {{ post.title }}
                     </a>
                 </h2>
             </header>
-            <p>
+            <p itemprop="articleBody" >
                 {{ post.excerpt }} 
             </p>
             <footer>
                 <small>
-                    {{ post.date | date_to_string }} - 
+                    <span itemprop="datePublished" content="{{ post.date | date: '%F' }}">
+                        {{ post.date | date_to_string }} 
+                    </span> -
                     {{ post.tags | join: ', ' | upcase }}
                 </small>
             </footer>

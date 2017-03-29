@@ -1,20 +1,22 @@
 ---
 layout: default
 ---
-<article class="post">
+<article itemscope itemtype="http://schema.org/Article" class="post">
 
     <header>
-        <h1 >
+        <h1 itemprop="name" >
             {{ page.title }}
         </h1>
 
         <small>
-            {{ page.date | date_to_string }} - 
+            <span itemprop="datePublished" content="{{ page.date | date: '%F' }}">
+                {{ page.date | date_to_string }}
+            </span> - 
             {{ page.tags | join: ', ' | upcase }}
         </small>
     </header>
 
-    <div class="post-content">
+    <div itemprop="articleBody" class="post-content">
       {{ page.content }}
     </div>
     
