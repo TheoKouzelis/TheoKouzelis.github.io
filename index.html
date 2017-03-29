@@ -7,9 +7,15 @@ layout: default
     {% for post in site.posts %}
         <div class="post">
             <h1>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <small>- {{ post.date | date: "%d/%m/%Y" }}</small></a>
+                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
             </h1>
-            <p>{{ post.description }} <a   href="{{ post.url | prepend: site.baseurl }}">Read Post</a></p>
+            <p>
+                {{ post.excerpt }} 
+            </p>
+            <small>
+                {{ post.date | date_to_string }} - 
+                {{ post.tags | join: ', ' | upcase }}
+            </small>
         </div>
     {% endfor %}
 

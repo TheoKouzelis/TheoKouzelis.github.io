@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Laravel Logout Caching Issue"
-description: "How to stop browsers caching pages that require authorisation in Laravel"
-date: 2017-03-15 01:00:00
+excerpt: "How to stop browsers caching pages that require authorisation in Laravel."
+date: 2017-03-24 01:00:00
 categories: php
+tags: [php, laravel]
 ---
 This is an issue which I'm sure effects many frameworks and custom sites. Because I work mainly with 
 the Laravel, I'm using the framework to illustrate this issue. The video below demonstrates how 

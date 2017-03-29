@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "AngularJS SEO"
-description: "My experiences with Google indexing an AngularJS website"
+excerpt: "My experiences with Google indexing an AngularJS website."
 date: 2015-03-29 22:40:00
 categories: javascript
+tags: [javascript, seo, angularjs]
 ---
 A month after releasing a new AngularJS site I started reviewing how Google had indexed the site. To my surprise
 Google hadn't done such a bad job. Google had announced last year that they can now [index sites that rely on 

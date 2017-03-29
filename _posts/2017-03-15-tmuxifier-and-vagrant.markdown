@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Tmuxifier and Vagrant"
-description: "Simple template to get Tmuxifier windows to login to Vagrant"
+excerpt: "Simple template to get Tmuxifier windows to login to Vagrant."
 date: 2017-03-15 01:00:00
 categories: linux
+tags: [linux, tmux, tmuxifier]
 ---
 Recently I have become addicted to using [Tmux](https://tmux.github.io/), to build all my windows that make up my 
 development environment. Tmux was recommended to me as a easy way to run a program in the background. But I quickly 

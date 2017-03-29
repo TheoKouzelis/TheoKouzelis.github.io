@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Changing The Database Connection For A Route In Laravel"
-description: "How to create middlewares that change the database connection of your Laravel project"
-date: 2016-03-10 01:00:00
+excerpt: "How to create middlewares that change the database connection of your Laravel project."
+date: 2016-03-14 01:00:00
 categories: php
+tags: [php, laravel]
 ---
 While creating an API in Laravel I had a requirement due to a tight schedule. The content team required a clean database 
 to start provisioning real data in the backend CMS and the app developer still required the API to serve the full range of 

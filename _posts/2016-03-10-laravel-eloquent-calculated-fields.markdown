@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Laravel Eloquent Calculated Fields"
-description: "How to select additional fields on the fly with eloquent scopes."
+excerpt: "How to select additional fields on the fly with eloquent scopes."
 date: 2016-03-10 01:00:00
 categories: php
+tags: [php, laravel, eloquent]
 ---
 In certain situations it's useful to calculate extra fields from within your eloquent models. For instance it may be useful to calculate distance for a model that has coordinate fields.
 

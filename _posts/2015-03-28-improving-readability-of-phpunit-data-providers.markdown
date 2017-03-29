@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Improving Readability of PHPUnit Data Providers"
-description: "An overview of my naming conventions for my unit tests and data providers."
+excerpt: "An overview of my naming conventions for my unit tests and data providers."
 date: 2015-03-28 19:30:00
 categories: php
+tags: [php, testing, phpunit]
 ---
 When writing tests I try to describe the test in the function name. I use the format
 testDoesSomethingWhenPassedSomething to first describe the assertion and then the context.  

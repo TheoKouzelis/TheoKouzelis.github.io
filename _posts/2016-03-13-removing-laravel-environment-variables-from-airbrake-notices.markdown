@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Removing Laravel Environment Variables From Airbrake Notices"
-description: "Without configuration, Airbrake's PHP package can gather sensitive data. Here is how to stop Laravel's environment variables ending up in your logs."
-date: 2016-03-10 01:00:00
+excerpt: "Without configuration, Airbrake's PHP package can gather sensitive data. Here is how to stop Laravel's environment variables ending up in your logs."
+date: 2016-03-13 01:00:00
 categories: php
+tags: [php, laravel, logging]
 ---
 When I first started using Airbrake I was impressed by the amount of detail gathered by each tab of the notice. But when I started to 
 inspect the "env" tab I notice that sensitive data such as database passwords where being logged from my Laravel project.

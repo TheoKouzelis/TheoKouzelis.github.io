@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Setting Up Airbrake With Monolog"
-description: "Quick and easy guide to sending log messages from Monolog to the external bug tracker Airbrake"
+excerpt: "Quick and easy guide to sending log messages from Monolog to the external bug tracker Airbrake."
 date: 2015-09-27 01:00:00
 categories: php
+tags: [php, logging, monolog, airbrake]
 ---  
 Integrating Monolog and Airbrake is fairly painless. The hardest part  is navigating a lot of deprecated packages for 
 Airbrake that still rank higher in searches than the currently supported API [airbrake/phpbrake](https://github.com/airbrake/phpbrake). 

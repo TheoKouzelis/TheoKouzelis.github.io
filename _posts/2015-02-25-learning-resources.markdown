@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Learning Resources"
-description: "Great learning resources that have helped me progress my programming skills over the last few years."
+excerpt: "Great learning resources that have helped me progress my programming skills over the last few years."
 date: 2015-02-25 00:29:00
 categories: meta-programming
+tags: [php, learning]
 ---
 There are tons of great resources for software developers at the moment. A lot of the following resources I have found over the last 2 years after working with the [Laravel Framework](http://laravel.com/). Working with the framework introduced me to the PHP community and a wide range of learning materials.  
 

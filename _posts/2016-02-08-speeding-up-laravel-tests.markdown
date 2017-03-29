@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Speeding Up Laravel Tests"
-description: "A quick way to speed up your functional tests in Laravel"
+excerpt: "A quick way to speed up your functional tests in Laravel."
 date: 2016-02-08 01:00:00
 categories: php
+tags: [php, laravel, Testing]
 ---
 While investigating ways to speed up tests by [Chris Duell](http://www.chrisduell.com/blog/development/speeding-up-unit-tests-in-php/) 
 and [Jordan Eldredge](https://jordaneldredge.com/blog/speed-up-laravel-tests-with-database-transactions/). I stumbled upon an 

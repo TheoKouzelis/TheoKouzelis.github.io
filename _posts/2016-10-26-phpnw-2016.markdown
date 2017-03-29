@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "PHPNW 2016"
-description: "My first experience of a PHP conference."
+excerpt: "My first experience of a PHP conference."
 date: 2016-10-26 01:00:00
 categories: php
+tags: [php, conferences]
 ---
 ![Main room at PHPNW 2016](/images/phpnw.jpg "Main room at PHPNW 2016")  
 Having never been to a conference before I didn't know what to expect from one of the larger UK PHP events. I regularly 

@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Proposed Change to Laravel's Service Container"
-description: "A change to Laravel's Service Container which would allow contextual Monolog configurations"
-date: 2016-10-26 01:00:00
+excerpt: "A change to Laravel's Service Container which would allow contextual Monolog configurations."
+date: 2016-10-30 01:00:00
 categories: php
+tags: [php, laravel]
 ---
 There is a [open pull request](https://github.com/laravel/framework/pull/15637) by 
 [Jordan Pittman](https://github.com/thecrypticace) to amend Laravel's Service Container to allow contextual 

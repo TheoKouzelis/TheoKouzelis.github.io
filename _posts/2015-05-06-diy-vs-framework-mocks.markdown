@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "DIY vs Framework Mocks"
-description: "Comparing creating test mocks using a framework/package or creating them your self."
+excerpt: "Comparing creating test mocks using a framework/package or creating them your self."
 date: 2015-05-06 01:00:00
 categories: php
+tags: [php, testing]
 ---
 Since learning to test applications I have always used packages like [Mockery](https://github.com/padraic/mockery) or 
 [PHPUnit](https://phpunit.de/manual/current/en/test-doubles.html#test-doubles.mock-objects) to create mocks objects. I 
