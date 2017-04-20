@@ -7,7 +7,7 @@ layout: default
     {% for post in site.posts %}
         <article itemscope itemtype="http://schema.org/Article" class="post">
             <header>
-                <h2>
+		    <h2 id="{{ post.ident }}">
                     <a itemprop="name" href="{{ post.url }}">
                         {{ post.title }}
                     </a>
