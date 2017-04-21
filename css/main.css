@@ -267,7 +267,7 @@ figure {
 
 @media screen and (min-width: 768px) {
 
-#tokenmismatch > a > br {
+.lbreak-mobile > a > br {
 	display: none;
 
 }

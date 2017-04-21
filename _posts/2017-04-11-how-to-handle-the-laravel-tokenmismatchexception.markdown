@@ -4,7 +4,7 @@ title: "How to Handle the Laravel TokenMismatch<br />Exception"
 excerpt: "Handling the TokenMismatchExeception isn't entirely obvious. Here are two ways to easily take care of them, within your Laravel apps."
 date: 2017-04-11 00:00:00
 categories: php
-ident: tokenmismatch
+class: lbreak-mobile
 tags: [php, laravel]
 ---
 As part of Laravel’s CSRF protection, the framework will require you to 
